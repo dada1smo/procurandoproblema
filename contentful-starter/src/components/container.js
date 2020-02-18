@@ -1,5 +1,7 @@
-import React from 'react'
+import React from "react"
+import containerStyles from "./container.module.scss"
 
 export default ({ children }) => (
-  <div style={{ maxWidth: 1180, margin: '0 auto' }}>{children}</div>
+  <div className={[containerStyles.container, "bg-primary container"].join(' ')}>{children}</div>
+//  <div className="bg-primary container">{children}</div>
 )
