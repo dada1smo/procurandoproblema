@@ -30,7 +30,32 @@ module.exports = {
     {
       resolve: 'gatsby-source-contentful',
       options: contentfulConfig,
-    }
+    },
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Red+Hat+Display",
+              variants: ["900"],
+            },
+            {
+              family: "IBM+Plex+Mono",
+              variants: ["400"],
+            },
+            {
+              family: "IBM+Plex+Sans",
+              variants: ["400", "400i", "500"],
+            },
+          ],
+        },
+        //formats: ['woff2', 'woff'],
+        //useMinify: true,
+        //usePreload: true,
+        //usePreconnect: false,
+      },
+    },
   ],
   // plugins: ['gatsby-plugin-sass'],
 }

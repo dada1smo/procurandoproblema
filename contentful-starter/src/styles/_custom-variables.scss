@@ -7,6 +7,7 @@
 // Enabling shadows and gradients
 //$enable-shadows: true;
 //$enable-gradients: true;
+// $enable-grid-classes: false;
 
 // Changing the body background and text
 //$body-bg: #d3e9eb;
@@ -16,17 +17,17 @@
 //$border-radius: 15px;
 
 // Changing the theme colors
-$primary: #e84f94;
-//$secondary: #436296;
+$primary: #5D4A66;
+$secondary: #FFD300;
 //$success: #2bc550;
-//$info: #495dff;
+$info: #92AFD7;
 //$warning: #ef8143;
 //$danger: #ff293a;
-//$light: #dfe6ee;
-//$dark: #0f1319;
+$light: #C5D1EB;
+$dark: #393348;
 
 
 // Adding (!) an additional theme color (ex. classes btn-cool, bg-cool)
-//$theme-colors: (
-//  "cool": #4d3fa3
-//);
+$theme-colors: (
+  "primary-light": #6A4D7B
+);
